@@ -1,0 +1,135 @@
+
+.border{
+ 
+    background-color:#C6DEFF;
+    height: 100vh;
+    width:100vw;
+   
+}
+.box{
+    height:70vh;
+    width:20vw;
+    background-color:white;
+    border-radius:1rem;
+    position:absolute;
+    top:5rem;
+    left:35rem;
+}
+.img img{
+    
+    height: 17rem;
+    width: 15rem;
+    position:absolute;
+    top:4%;
+    left:6%;
+    right: 1%;
+    border-radius: 1rem;
+}
+h3{
+    position:relative;
+    top: 18rem;
+    left:1%;
+  
+
+}
+h4{
+    position:relative;
+    top: 18rem;
+    left:1%;
+    color:#8D918D;
+}
+@media(max-width:780px and min-width:601){
+    
+    .box{
+        height:76vh;
+        width:32vw;
+        position:absolute;
+        top:3rem;
+        left:8rem;
+    }
+    .img img{
+        
+        height: 16rem;
+        width: 9rem;
+        
+    }
+    h3{
+        position:relative;
+        top: 16rem;
+        left:0.2rem;
+      
+    
+    }
+    h4{
+        position:relative;
+        top: 16rem;
+        left:0.3rem;
+       
+    }
+}
+@media(max-width:369px)
+{
+    .box{
+        height:65vh;
+        width:45vw;
+        position:absolute;
+        top:5rem;
+        left:7rem;
+    }
+    .img img{
+        
+        height: 13rem;
+        width: 10rem;
+        position:absolute;
+        top:2%;
+        left:2%;
+        right: 1%;
+        
+    }
+    h3{
+        position:relative;
+        top: 13rem;
+        left:0.1rem;
+      
+    
+    }
+    h4{
+        position:relative;
+        top: 12rem;
+        left:0.2rem;
+       
+    } 
+}
+@media(max-width:600px)
+{
+    .box{
+        height:65vh;
+        width:45vw;
+        position:absolute;
+        top:5rem;
+        left:8rem;
+    }
+    .img img{
+        
+        height: 14rem;
+        width: 12rem;
+        position:absolute;
+        top:2%;
+        left:3%;
+        right: 1%;
+        
+    }
+    h3{
+        position:relative;
+        top: 14rem;
+        left:0.1rem;
+      
+    
+    }
+    h4{
+        position:relative;
+        top: 13rem;
+        left:0.2rem;
+       
+    } 
+}
