@@ -70,11 +70,11 @@ h4{
 @media(max-width:369px)
 {
     .box{
-        height:63vh;
+        height:61vh;
         width:47vw;
         position:absolute;
-        top:5rem;
-        left:7rem;
+        top:6rem;
+        left:6rem;
     }
     .img img{
         
@@ -103,7 +103,7 @@ h4{
 @media(max-width:600px)
 {
     .box{
-        height:65vh;
+        height:63vh;
         width:48vw;
         position:absolute;
         top:5rem;
